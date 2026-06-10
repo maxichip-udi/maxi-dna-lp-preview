@@ -7,7 +7,7 @@
 <meta name="description" content="Laudo eletrônico veicular assinado por responsável técnico habilitado. O KM no painel te conta uma história. O Maxi DNA te conta a verdade. Uberlândia/MG.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Bebas+Neue&family=DM+Mono:ital,wght@1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
 :root{
   --preto:#000000;
@@ -44,11 +44,8 @@ section{padding:88px 0;position:relative}
 /* ===== NAV ===== */
 nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(0,0,0,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--borda)}
 nav .container{display:flex;align-items:center;justify-content:space-between;height:64px}
-.logo{text-decoration:none;display:inline-flex;align-items:center}
-.brand-logo{display:inline-flex;align-items:flex-end;gap:6px;line-height:1}
-.brand-logo-mark{font-family:'Bebas Neue',sans-serif;letter-spacing:.01em;color:#fff}
-.brand-logo-mark .brand-x{color:var(--vermelho)}
-.brand-logo-dna{font-family:'DM Mono',monospace;font-style:italic;color:var(--cinza);letter-spacing:.04em}
+.logo{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:26px;letter-spacing:.04em;text-decoration:none;color:#fff;display:inline-flex;align-items:center}
+.logo img{height:46px;width:auto;display:block}
 .nav-links{display:flex;gap:28px;align-items:center}
 .nav-links a{color:var(--cinza);text-decoration:none;font-size:14px;font-weight:500;transition:.2s}
 .nav-links a:hover{color:#fff}
@@ -199,7 +196,7 @@ footer a:hover{color:var(--vermelho)}
 
 <nav>
   <div class="container">
-    <a class="logo" href="#"><span class="brand-logo"><span class="brand-logo-mark" style="font-size:26px">MA<span class="brand-x">X</span>I</span><span class="brand-logo-dna" style="font-size:12px;margin-bottom:2px">DNA</span></span></a>
+    <a class="logo" href="#"><img src="logo-maxi-dna.jpeg" alt="Maxi DNA"></a>
     <div class="nav-links">
       <a href="#problema">O risco</a>
       <a href="#laudo">O laudo</a>
@@ -320,7 +317,7 @@ footer a:hover{color:var(--vermelho)}
     </div>
     <div class="reveal" style="overflow-x:auto">
       <table class="cmp-table">
-        <thead><tr><th>Item verificado</th><th>Mecânico / Cautelar</th><th class="dna-col"><span class="brand-logo" style="justify-content:center"><span class="brand-logo-mark" style="font-size:30px">MA<span class="brand-x">X</span>I</span><span class="brand-logo-dna" style="font-size:13px;margin-bottom:2px">DNA</span></span></th></tr></thead>
+        <thead><tr><th>Item verificado</th><th>Mecânico / Cautelar</th><th class="dna-col"><img src="logo-maxi-dna.jpeg" alt="Maxi DNA" style="height:38px;width:auto;display:block;margin:0 auto;border-radius:4px"></th></tr></thead>
         <tbody>
           <tr><td>KM real nos módulos eletrônicos</td><td class="nao">NÃO</td><td class="dna-col sim">SIM</td></tr>
           <tr><td>Saúde do câmbio automático</td><td class="nao">PARCIAL</td><td class="dna-col sim">SIM</td></tr>
@@ -396,7 +393,7 @@ footer a:hover{color:var(--vermelho)}
 <footer>
   <div class="container">
     <div>
-      <a class="logo" href="#" style="margin-bottom:14px"><span class="brand-logo"><span class="brand-logo-mark" style="font-size:40px">MA<span class="brand-x">X</span>I</span><span class="brand-logo-dna" style="font-size:17px;margin-bottom:4px">DNA</span></span></a>
+      <a class="logo" href="#" style="margin-bottom:14px"><img src="logo-maxi-dna.jpeg" alt="Maxi DNA" style="height:56px"></a>
       <p>Laudo eletrônico veicular com responsabilidade técnica (CREA/CFT). Uma marca Maxi Chip Performance Automotiva — 12 anos de mercado, parceiro Bosch Car Service.</p>
     </div>
     <div>
